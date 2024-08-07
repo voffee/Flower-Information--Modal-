@@ -1,0 +1,26 @@
+
+/* Root Variables */
+:root {
+    --page-background: #FFFFFF;
+    --last-quarter-1: #C3B091;
+    --last-quarter-2: #D2A7B6;
+    --last-quarter-3: #D5A8A1;
+    --last-quarter-4: #C5AF91;
+    --black-font: #212121;
+
+}
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.container {
+    
+}
