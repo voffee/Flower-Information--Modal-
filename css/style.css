@@ -18,9 +18,51 @@
 }
 
 body {
+    height: 100vh;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    background-color: var(--page-background);
 }
 
 .container {
-    
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 8000px; */
+    background-color: aqua;
+}
+
+.flower-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 450px;
+    background-color: red;
+    background-image: linear-gradient();
+}
+
+#main-image {
+    height: auto;
+    max-width: 50%;
+    border-radius: 15px;
+}
+
+#disclaimer {
+    font-size: 10px;
+}
+
+#disclaimer span {
+    font-weight: bold;
 }
