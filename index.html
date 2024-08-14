@@ -14,18 +14,41 @@
         <article class="flower-information">
             <h1>Tequila Sunrise Rose</h1>
             <p id="description">A many petalled rose with blooms of yellow heavily flushed red. A very showy and bright rose of good vigour.</p>
+            <img src="/img/tequila_sunrise_rose.jpeg" alt="Tequila Rose Flower">
             <ul id="characteristics">
                 <li>Approximate Growth Height: 80cm</li>
                 <li>Flower Color: Orange</li>
                 <li>Rose Type <span>Floribunda Rose</span></li>
             </ul>
             <p id="disclaimer"><span>All care is taken to provide accurate information all plants sold. The onus is on the buyer to verify if plants can grow or germinate in their local climate. Some plants sold may be <span>highly poisonous</span>, please exercise due caution.</span></p>
-            <button class="btn">Click to view plant</button>
+            <button class="btn">Click to order plant</button>
         </article>
 
         <div class="modal-container">
             <dialog class="modal">
-                <img src="/img/tequila_sunrise_rose.jpeg" alt="">
+                <h2>Order Details: Tequila Sunrise Rose (1.25kg)</h2>
+                <img src="/img/tequila_sunrise_rose.jpeg" alt="Tequila Rose Flower">
+                <p>Price: &dollar;129.99</p>
+
+                <form action="#" method="dialog" class="form">
+                    <label for="username">Enter your name</label>
+                    <input type="text" id="username" name="username" placeholder="John Doe" required>
+
+                    <label for="email">Email address: </label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+
+                    <label for="address-line1">Address Line 1:</label>
+                    <input type="text" name="address-line1" id="address-line1" placeholder="e.g. 10 Downing Street" required>
+
+                    <label for="address-line2">Address Line 2:</label>
+                    <input type="text" name="address-line2" id="address-line2" required>
+
+                    <label for="city">City:</label>
+                    <input type="text" name="city" id="city" placeholder="e.g. London" required>
+
+                    <button type="submit">Submit Order</button>
+                </form>
+                <button class="btn">Close</button>
             </dialog>
         </div>
     </div>
