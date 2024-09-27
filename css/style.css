@@ -7,7 +7,8 @@
     --last-quarter-3: #D5A8A1;
     --last-quarter-4: #C5AF91;
     --black-font: #212121;
-    --button-hover: #85BCBF;
+    --button-color: #85BCBF;
+    --button-hover: #9E9E9E;
 
 }
 
@@ -107,14 +108,43 @@ h1 {
     font-weight: bold;
 }
 
+/* HR Breaks */
+#first-break { 
+    height: 1px;
+    width: 400px;
+    background-color: #212121;
+    margin: 10px 0px 20px 0px;
+    border: none;
+
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+
+    align-self: end;
+    justify-self: center;
+}
+
+#second-break { 
+    height: 1px;
+    width: 400px;
+    background-color: #212121;
+    margin: 10px 0px;
+    border: none;
+
+    grid-column: 1 / 5;
+    grid-row: 5 / 6;
+
+    align-self: center;
+    justify-self: center;
+}
+
 .btn {
     width: 90px;
     height: 60px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     padding: 5px 5px 5px 5px;
-    background: var(--page-background);
+    background: var(--button-color);
 
     grid-column: 3 / 5;
     grid-row: 4 / 5;
@@ -125,4 +155,10 @@ h1 {
 
 .btn:hover {
     background: var(--button-hover);
+}
+
+/* Modal Styling */
+
+.modal {
+    background-color: cyan;
 }
