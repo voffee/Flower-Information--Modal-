@@ -31,10 +31,10 @@
 
         <div class="modal-container">
             <dialog class="modal">
-                <h2>Order Details: Tequila Sunrise Rose (1.25kg)</h2>
-                <img src="/img/tequila_sunrise_rose.jpeg" alt="Tequila Rose Flower">
+                <h2 id="order-details">Order Details: Tequila Sunrise Rose (1.25kg)</h2>
+                <img src="/img/tequila_sunrise_rose.jpeg" alt="Tequila Rose Flower" id="modal-image">
                 <p>Price: &dollar;129.99</p>
-
+                <button class="btn" id="closeModal">Close</button>
                 <form action="#" method="dialog" class="form">
                     <label for="username">Enter your name</label>
                     <input type="text" id="username" name="username" placeholder="John Doe" required>
@@ -53,7 +53,6 @@
 
                     <button type="submit" id="submitButton">Submit Order</button>
                 </form>
-                <button class="btn" id="closeModal">Close</button>
             </dialog>
         </div>
     </div>
