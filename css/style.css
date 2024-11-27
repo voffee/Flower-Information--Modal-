@@ -247,6 +247,7 @@ h1 {
 
 .form button:hover {
     background-color: var(--button-color);
+    cursor: pointer;
 }
 
 #closeModal {
@@ -259,4 +260,6 @@ h1 {
     grid-row: 1 / 1;
 
     justify-self: flex-start;
+
+    cursor: pointer;
 }
