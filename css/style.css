@@ -198,7 +198,7 @@ h1 {
 }
 
 .modal::backdrop {
-    background-color: var(--button-hover);
+    background-color: var(---generic-black);
     opacity: 0.5;
 }
 
