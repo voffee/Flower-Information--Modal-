@@ -174,10 +174,10 @@ h1 {
 .modal {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 0.75fr 1fr;
     gap: 2px;
 
-    height: 500px;
+    height: 550px;
     width: 400px;
     border-radius: 10px;
 
@@ -208,11 +208,6 @@ h1 {
     align-self: center;
 }
 
-.modal-container p {
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-}
-
 .form {
     display: flex;
     flex-direction: column;
@@ -233,7 +228,8 @@ h1 {
 }
 
 .form button {
-    height: 35px;
+    height: 75px;
+    margin-top: 50px;
 }
 
 .form button:hover {
