@@ -266,7 +266,6 @@ h1 {
 
     /* Main display re-sizing */
     .flower-information{
-
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 0.5fr 0.5fr 1fr 0.85fr;
@@ -429,26 +428,9 @@ h1 {
         align-self: center;
     }
 
-    .form {
-        display: flex;
-        flex-direction: column;
-    
-        grid-column: 1 / 4;
-        grid-row: 2 / 3;
-    }
-    
-    .form label {
-        height: 20px;
-        font-weight: 700;
-        
-        background-color: none;
-    }
-    
-    .form input {
-        height: 25px;
-    }
-    
     .form button {
-        height: 35px;
+        height: 50px;
+        margin-top: 10px;
+        background-color: #85BCBF;
     }
 }
